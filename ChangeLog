@@ -1,3 +1,8 @@
+oclpd (0.2) stable; urgency=low
+  * Major autotools replaced by CMake
+  * Major CG operator added
+
+ -- Kaveh Vahedipour <k.vahedipour@fz-juelich.de>  Wed, 6 Nov 2013 01:02:25 +0200
 oclpd (0.1) stable; urgency=low
   * Major Initial version
 
