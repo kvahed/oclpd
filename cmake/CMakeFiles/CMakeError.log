@@ -1,0 +1,1542 @@
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec160556156/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec160556156.dir/build.make CMakeFiles/cmTryCompileExec160556156.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec160556156.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec160556156.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec160556156.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec160556156.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec160556156.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec160556156/fast' failed
+make: *** [cmTryCompileExec160556156/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2590929432/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2590929432.dir/build.make CMakeFiles/cmTryCompileExec2590929432.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2590929432.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec2590929432.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-fopenmp'
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec2590929432.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2590929432.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2590929432.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2590929432/fast' failed
+make: *** [cmTryCompileExec2590929432/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1955909537/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1955909537.dir/build.make CMakeFiles/cmTryCompileExec1955909537.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1955909537.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec1955909537.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec1955909537.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1955909537.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1955909537.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1955909537/fast' failed
+make: *** [cmTryCompileExec1955909537/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec4105411895/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec4105411895.dir/build.make CMakeFiles/cmTryCompileExec4105411895.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4105411895.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec4105411895.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec4105411895.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4105411895.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4105411895.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4105411895/fast' failed
+make: *** [cmTryCompileExec4105411895/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3103184942/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3103184942.dir/build.make CMakeFiles/cmTryCompileExec3103184942.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3103184942.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec3103184942.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3103184942.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3103184942.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3103184942.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3103184942/fast' failed
+make: *** [cmTryCompileExec3103184942/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1528090682/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1528090682.dir/build.make CMakeFiles/cmTryCompileExec1528090682.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1528090682.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec1528090682.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+CMakeFiles/cmTryCompileExec1528090682.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1528090682.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1528090682.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1528090682/fast' failed
+make: *** [cmTryCompileExec1528090682/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec423090159/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec423090159.dir/build.make CMakeFiles/cmTryCompileExec423090159.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec423090159.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec423090159.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec423090159.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec423090159.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec423090159.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec423090159/fast' failed
+make: *** [cmTryCompileExec423090159/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec299416613/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec299416613.dir/build.make CMakeFiles/cmTryCompileExec299416613.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec299416613.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec299416613.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec299416613.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec299416613.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec299416613.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec299416613/fast' failed
+make: *** [cmTryCompileExec299416613/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec4224104855/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec4224104855.dir/build.make CMakeFiles/cmTryCompileExec4224104855.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4224104855.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec4224104855.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec4224104855.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4224104855.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4224104855.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4224104855/fast' failed
+make: *** [cmTryCompileExec4224104855/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec905514427/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec905514427.dir/build.make CMakeFiles/cmTryCompileExec905514427.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec905514427.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec905514427.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec905514427.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec905514427.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec905514427.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec905514427/fast' failed
+make: *** [cmTryCompileExec905514427/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3827426487/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3827426487.dir/build.make CMakeFiles/cmTryCompileExec3827426487.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3827426487.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec3827426487.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-fopenmp'
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3827426487.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3827426487.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3827426487.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3827426487/fast' failed
+make: *** [cmTryCompileExec3827426487/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2881649822/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2881649822.dir/build.make CMakeFiles/cmTryCompileExec2881649822.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2881649822.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec2881649822.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec2881649822.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2881649822.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2881649822.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2881649822/fast' failed
+make: *** [cmTryCompileExec2881649822/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3649280740/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3649280740.dir/build.make CMakeFiles/cmTryCompileExec3649280740.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3649280740.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec3649280740.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec3649280740.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3649280740.dir/src.cxx.o' failed
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3649280740.dir/src.cxx.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3649280740/fast' failed
+make: *** [cmTryCompileExec3649280740/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3236272343/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3236272343.dir/build.make CMakeFiles/cmTryCompileExec3236272343.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3236272343.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec3236272343.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3236272343.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3236272343.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3236272343.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3236272343/fast' failed
+make: *** [cmTryCompileExec3236272343/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3248810002/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3248810002.dir/build.make CMakeFiles/cmTryCompileExec3248810002.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3248810002.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec3248810002.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+CMakeFiles/cmTryCompileExec3248810002.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3248810002.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3248810002.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3248810002/fast' failed
+make: *** [cmTryCompileExec3248810002/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2848464480/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2848464480.dir/build.make CMakeFiles/cmTryCompileExec2848464480.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2848464480.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec2848464480.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec2848464480.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2848464480.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2848464480.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2848464480/fast' failed
+make: *** [cmTryCompileExec2848464480/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec975553684/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec975553684.dir/build.make CMakeFiles/cmTryCompileExec975553684.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec975553684.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec975553684.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec975553684.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec975553684.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec975553684.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec975553684/fast' failed
+make: *** [cmTryCompileExec975553684/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec139768501/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec139768501.dir/build.make CMakeFiles/cmTryCompileExec139768501.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec139768501.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec139768501.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec139768501.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec139768501.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec139768501.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec139768501/fast' failed
+make: *** [cmTryCompileExec139768501/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2714289914/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2714289914.dir/build.make CMakeFiles/cmTryCompileExec2714289914.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2714289914.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec2714289914.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec2714289914.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2714289914.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2714289914.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2714289914/fast' failed
+make: *** [cmTryCompileExec2714289914/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1398567284/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1398567284.dir/build.make CMakeFiles/cmTryCompileExec1398567284.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1398567284.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec1398567284.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-fopenmp'
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec1398567284.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1398567284.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1398567284.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1398567284/fast' failed
+make: *** [cmTryCompileExec1398567284/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3472903282/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3472903282.dir/build.make CMakeFiles/cmTryCompileExec3472903282.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3472903282.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec3472903282.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec3472903282.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3472903282.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3472903282.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3472903282/fast' failed
+make: *** [cmTryCompileExec3472903282/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec207477019/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec207477019.dir/build.make CMakeFiles/cmTryCompileExec207477019.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec207477019.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec207477019.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec207477019.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec207477019.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec207477019.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec207477019/fast' failed
+make: *** [cmTryCompileExec207477019/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec4268584016/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec4268584016.dir/build.make CMakeFiles/cmTryCompileExec4268584016.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4268584016.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec4268584016.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec4268584016.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4268584016.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4268584016.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4268584016/fast' failed
+make: *** [cmTryCompileExec4268584016/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec243964494/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec243964494.dir/build.make CMakeFiles/cmTryCompileExec243964494.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec243964494.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec243964494.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+CMakeFiles/cmTryCompileExec243964494.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec243964494.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec243964494.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec243964494/fast' failed
+make: *** [cmTryCompileExec243964494/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2225621170/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2225621170.dir/build.make CMakeFiles/cmTryCompileExec2225621170.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2225621170.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec2225621170.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec2225621170.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2225621170.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2225621170.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2225621170/fast' failed
+make: *** [cmTryCompileExec2225621170/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2368782694/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2368782694.dir/build.make CMakeFiles/cmTryCompileExec2368782694.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2368782694.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec2368782694.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec2368782694.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2368782694.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2368782694.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2368782694/fast' failed
+make: *** [cmTryCompileExec2368782694/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec540201625/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec540201625.dir/build.make CMakeFiles/cmTryCompileExec540201625.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec540201625.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec540201625.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec540201625.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec540201625.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec540201625.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec540201625/fast' failed
+make: *** [cmTryCompileExec540201625/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2611592871/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2611592871.dir/build.make CMakeFiles/cmTryCompileExec2611592871.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2611592871.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec2611592871.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec2611592871.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2611592871.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2611592871.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2611592871/fast' failed
+make: *** [cmTryCompileExec2611592871/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec274193702/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec274193702.dir/build.make CMakeFiles/cmTryCompileExec274193702.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec274193702.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec274193702.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-fopenmp'
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec274193702.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec274193702.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec274193702.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec274193702/fast' failed
+make: *** [cmTryCompileExec274193702/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec222276241/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec222276241.dir/build.make CMakeFiles/cmTryCompileExec222276241.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec222276241.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec222276241.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec222276241.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec222276241.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec222276241.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec222276241/fast' failed
+make: *** [cmTryCompileExec222276241/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3067946652/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3067946652.dir/build.make CMakeFiles/cmTryCompileExec3067946652.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3067946652.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec3067946652.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec3067946652.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3067946652.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3067946652.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3067946652/fast' failed
+make: *** [cmTryCompileExec3067946652/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1840660478/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1840660478.dir/build.make CMakeFiles/cmTryCompileExec1840660478.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1840660478.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec1840660478.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec1840660478.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1840660478.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1840660478.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1840660478/fast' failed
+make: *** [cmTryCompileExec1840660478/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec537036712/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec537036712.dir/build.make CMakeFiles/cmTryCompileExec537036712.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec537036712.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec537036712.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+CMakeFiles/cmTryCompileExec537036712.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec537036712.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec537036712.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec537036712/fast' failed
+make: *** [cmTryCompileExec537036712/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1507699220/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1507699220.dir/build.make CMakeFiles/cmTryCompileExec1507699220.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1507699220.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec1507699220.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec1507699220.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1507699220.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1507699220.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1507699220/fast' failed
+make: *** [cmTryCompileExec1507699220/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec253061646/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec253061646.dir/build.make CMakeFiles/cmTryCompileExec253061646.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec253061646.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec253061646.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec253061646.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec253061646.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec253061646.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec253061646/fast' failed
+make: *** [cmTryCompileExec253061646/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec588838527/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec588838527.dir/build.make CMakeFiles/cmTryCompileExec588838527.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec588838527.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec588838527.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec588838527.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec588838527.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec588838527.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec588838527/fast' failed
+make: *** [cmTryCompileExec588838527/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2991136008/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2991136008.dir/build.make CMakeFiles/cmTryCompileExec2991136008.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2991136008.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec2991136008.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec2991136008.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2991136008.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2991136008.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2991136008/fast' failed
+make: *** [cmTryCompileExec2991136008/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec908608643/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec908608643.dir/build.make CMakeFiles/cmTryCompileExec908608643.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec908608643.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec908608643.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-fopenmp'
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec908608643.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec908608643.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec908608643.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec908608643/fast' failed
+make: *** [cmTryCompileExec908608643/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2741100312/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2741100312.dir/build.make CMakeFiles/cmTryCompileExec2741100312.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2741100312.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec2741100312.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec2741100312.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2741100312.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2741100312.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2741100312/fast' failed
+make: *** [cmTryCompileExec2741100312/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3692662381/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3692662381.dir/build.make CMakeFiles/cmTryCompileExec3692662381.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3692662381.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec3692662381.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-Qopenmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec3692662381.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3692662381.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3692662381.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3692662381/fast' failed
+make: *** [cmTryCompileExec3692662381/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3461729788/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3461729788.dir/build.make CMakeFiles/cmTryCompileExec3461729788.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3461729788.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec3461729788.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3461729788.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3461729788.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3461729788.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3461729788/fast' failed
+make: *** [cmTryCompileExec3461729788/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2032379175/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2032379175.dir/build.make CMakeFiles/cmTryCompileExec2032379175.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2032379175.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec2032379175.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c: 'linker' input unused
+CMakeFiles/cmTryCompileExec2032379175.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2032379175.dir/src.c.o' failed
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2032379175.dir/src.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2032379175/fast' failed
+make: *** [cmTryCompileExec2032379175/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2526600543/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2526600543.dir/build.make CMakeFiles/cmTryCompileExec2526600543.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2526600543.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec2526600543.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec2526600543.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2526600543.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2526600543.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2526600543/fast' failed
+make: *** [cmTryCompileExec2526600543/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1336708421/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1336708421.dir/build.make CMakeFiles/cmTryCompileExec1336708421.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1336708421.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec1336708421.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qsmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec1336708421.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1336708421.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1336708421.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1336708421/fast' failed
+make: *** [cmTryCompileExec1336708421/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3093994269/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3093994269.dir/build.make CMakeFiles/cmTryCompileExec3093994269.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3093994269.dir/src.c.o
+/usr/bin/cc   -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec3093994269.dir/src.c.o   -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec3093994269.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3093994269.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3093994269.dir/src.c.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3093994269/fast' failed
+make: *** [cmTryCompileExec3093994269/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec442540131/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec442540131.dir/build.make CMakeFiles/cmTryCompileExec442540131.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec442540131.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED   -o CMakeFiles/cmTryCompileExec442540131.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec442540131.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec442540131.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec442540131.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec442540131/fast' failed
+make: *** [cmTryCompileExec442540131/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec3668842309/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3668842309.dir/build.make CMakeFiles/cmTryCompileExec3668842309.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3668842309.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTryCompileExec3668842309.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: warning: argument unused during compilation: '-fopenmp'
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec3668842309.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3668842309.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec3668842309.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec3668842309/fast' failed
+make: *** [cmTryCompileExec3668842309/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec4060666119/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec4060666119.dir/build.make CMakeFiles/cmTryCompileExec4060666119.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4060666119.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED /openmp   -o CMakeFiles/cmTryCompileExec4060666119.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/openmp'
+CMakeFiles/cmTryCompileExec4060666119.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4060666119.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec4060666119.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4060666119/fast' failed
+make: *** [cmTryCompileExec4060666119/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec423625644/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec423625644.dir/build.make CMakeFiles/cmTryCompileExec423625644.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec423625644.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -Qopenmp   -o CMakeFiles/cmTryCompileExec423625644.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-Qopenmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec423625644.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec423625644.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec423625644.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec423625644/fast' failed
+make: *** [cmTryCompileExec423625644/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1868757256/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1868757256.dir/build.make CMakeFiles/cmTryCompileExec1868757256.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1868757256.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -openmp   -o CMakeFiles/cmTryCompileExec1868757256.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^
+1 error generated.
+CMakeFiles/cmTryCompileExec1868757256.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1868757256.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1868757256.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1868757256/fast' failed
+make: *** [cmTryCompileExec1868757256/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec662710226/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec662710226.dir/build.make CMakeFiles/cmTryCompileExec662710226.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec662710226.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -xopenmp   -o CMakeFiles/cmTryCompileExec662710226.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'openmp'
+clang: warning: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused
+CMakeFiles/cmTryCompileExec662710226.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec662710226.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec662710226.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec662710226/fast' failed
+make: *** [cmTryCompileExec662710226/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec2703491802/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec2703491802.dir/build.make CMakeFiles/cmTryCompileExec2703491802.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2703491802.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED +Oopenmp   -o CMakeFiles/cmTryCompileExec2703491802.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '+Oopenmp'
+CMakeFiles/cmTryCompileExec2703491802.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2703491802.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec2703491802.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec2703491802/fast' failed
+make: *** [cmTryCompileExec2703491802/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec1547941556/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec1547941556.dir/build.make CMakeFiles/cmTryCompileExec1547941556.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1547941556.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -qsmp   -o CMakeFiles/cmTryCompileExec1547941556.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qsmp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec1547941556.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1547941556.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec1547941556.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec1547941556/fast' failed
+make: *** [cmTryCompileExec1547941556/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED failed with the following output:
+Change Dir: /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/make" "cmTryCompileExec604950939/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec604950939.dir/build.make CMakeFiles/cmTryCompileExec604950939.dir/build
+make[1]: Entering directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+/Applications/CMake.app/Contents/bin/cmake -E cmake_progress_report /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec604950939.dir/src.cxx.o
+/usr/bin/c++    -Ofast -march=native -I/System/Library/Frameworks/vecLib.framework/Versions/A/Headers/  -DOpenMP_FLAG_DETECTED -mp   -o CMakeFiles/cmTryCompileExec604950939.dir/src.cxx.o -c /Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-mp' [-Wunused-command-line-argument-hard-error-in-future]
+clang: note: this will be a hard error (cannot be downgraded to a warning) in the future
+CMakeFiles/cmTryCompileExec604950939.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec604950939.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTryCompileExec604950939.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/Users/kvahed/git/oclpd/cmake/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec604950939/fast' failed
+make: *** [cmTryCompileExec604950939/fast] Error 2
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+

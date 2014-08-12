@@ -1,0 +1,2 @@
+#define VERSION "@oclpd_VERSION@"
+#define GIT_COMMIT "@GIT_SHA1@"
