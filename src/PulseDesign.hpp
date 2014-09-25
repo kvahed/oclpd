@@ -48,14 +48,14 @@ public:
 
     	// Read data
         HDF5File f;
-        f  = fopen (in_file);
-        b1 = fread<cplx>(f, "b1"); // b1 Sensitivity maps      nr x nc
-        r  = fread<real>(f,  "r"); //  r Spatial positions      3 x nr
-        m0 = fread<real>(f, "m0"); // m0 Pattern                3 x nr
-        b0 = fread<real>(f, "b0"); // b0 b0 map O(nr)          nr
-        gs = fread<real>(f, "gs"); // gs Gradient sensitivity   3 x nr
-        g  = fread<real>(f,  "g"); //  g Gradient trajectory    3 x nk
-        j  = fread<real>(f,  "j"); //  j Jacobian determinant  nk
+        f   = fopen (in_file);
+        b1  = fread<cplx>(f, "b1"); // b1 Sensitivity maps      nr x nc
+        r   = fread<real>(f,  "r"); //  r Spatial positions      3 x nr
+        m0  = fread<real>(f, "m0"); // m0 Pattern                3 x nr
+        b0  = fread<real>(f, "b0"); // b0 b0 map O(nr)          nr
+        gs  = fread<real>(f, "gs"); // gs Gradient sensitivity   3 x nr
+        g   = fread<real>(f,  "g"); //  g Gradient trajectory    3 x nk
+        j   = fread<real>(f,  "j"); //  j Jacobian determinant  nk
         tm0 = fread<real>(f,"tm0"); //  j Jacobian determinant nk
         fclose (f);
 
@@ -127,6 +127,10 @@ protected:
     	cp.Copy (icbuf, ic);
     }
 
+
+    class E {
+    };
+    
     void CGNR (codeare::opencl::CLProcessor& cp) {
 
         cl::Kernel simacq = cp.MakeKernel("simacq"),

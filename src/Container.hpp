@@ -43,9 +43,9 @@
 typedef unsigned char cbool;
 
 /**
- * @brief   Memory paradigm (share, opencl or message passing)
+ * @brief   Memory Engine (share, opencl or message passing)
  */
-enum    paradigm {
+enum    Engine {
 
   SHM, /**< @brief Shared memory (Local RAM) */
   OCL, /**< @brief Open CL GPU RAM */
@@ -55,7 +55,7 @@ enum    paradigm {
 
 namespace codeare {
 
-template <class T, paradigm P=SHM>
+template <class T, Engine E=SHM>
 class container {
 public:
 	typedef typename VECTOR_TYPE(T)::iterator iterator;
