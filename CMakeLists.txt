@@ -1,9 +1,9 @@
 cmake_minimum_required (VERSION 2.8) 
 
 project (oclpd) 
-set (oclpd_VERSION_MAJOR 2)
-set (oclpd_VERSION_MINOR 7)
-set (oclpd_VERSION_PATCH 1)
+set (oclpd_VERSION_MAJOR 0)
+set (oclpd_VERSION_MINOR 1)
+set (oclpd_VERSION_PATCH 2)
 set (oclpd_VERSION "${oclpd_VERSION_MAJOR}.${oclpd_VERSION_MINOR}.${oclpd_VERSION_PATCH}")
 
 set (CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)

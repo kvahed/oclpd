@@ -7,3 +7,9 @@ add_executable (oclpd ${CORE_SRC} oclpd.cpp)
 target_link_libraries (oclpd hdf5 hdf5_cpp ${OPENCL_LIBRARIES}) 
 install (TARGETS oclpd DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
 
+include (TestMacro)
+
+add_test(NAME oclpd
+    COMMAND oclpd
+    WORKING_DIRECTORY ${PROJECT_SOURCE_DIR})
+
